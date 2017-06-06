@@ -1,45 +1,26 @@
 body {
+	background: #fff;
 	font-family: Arial, Verdana, Tahoma, sans-serif;
 	font-size: 16px;
 	color: #5D6D7E;
 	height: 100%;
 }
 
-.myjumbotron {
-	background-color: #72D6E2 !important;
-	
-}
-.jumbotron-header {
-	width: 90%;
-
-}
-
-.intro {
-	padding: 30px 20px 20px 20px;
-	/*font-family: 'Londrina Shadow', cursive;*/
-	font-family: 'VT323', cursive;
-	color: #29B1C1;
-}
-
-.icons {
-	width: 50%;
-	padding: 10px;
-	float: right;
-}
-
-.icon {
-	display: block;
-	padding-bottom: 20px;
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
 }
 
 #wrapper {
-	margin: -35px auto 0 auto;
-	background: #F4F7F7;
+	margin: 0 auto;
+	max-width: 85%/*1020px*/;
+	width: 100%;	
+	height: 70%;
+	background: #fff;
+	border: 0px solid #EBF5FB;
 	border-radius: 5px;
-}
-
-.content {
-	width: 80%;
+	box-shadow: 0 0 0px 0 rgba(12, 3, 25, 0.8);
 }
 
 .top {
@@ -58,26 +39,154 @@ h1, h2 {
 	font-size: 20px;
 }
 
+
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	width: 80%;
+}
+
+nav ul li {
+	display: inline-block;
+	width: 12%;
+	/*border: 2px solid green;*/
+}
+
+nav ul li a{
+	/*border: 2px solid red;*/
+	/*background: #D5D8DC;*/ /* grey*/
+	display: block;
+	padding: 5% 12%;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #5D6D7E;
+	
+}
+
+nav ul li a:hover, nav ul li.active a {
+	/*background-color: #2E4053; */	/* dark blue;*/
+	display: block;
+	padding: 5% 12%;
+	font-weight: bold;
+	text-align: center;
+	color: #2E4053;
+	
+	
+}
+
+.left-column {
+	
+}
+
+.right-column {
+	margin: 4%;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 80%;
+}
+
+footer ul {
+	list-style: none;
+	margin: 0;
+	
+	
+}
+
+footer ul li{
+	display: inline;
+	float: right;
+	padding: 1% 1% 1% 0;
+}
+
+footer ul li img{
+	height: 40px;
+	padding: 1% 1% 1% 0;
+}
+
 .copyright {
 	font-size: 10px;
 	color: #2E4053;
 	padding: 20px 0 0 0;
+	margin-left: 150px;
+	text-align: center;
 	font-style: Verdana, Arial;
 	
 
 }
 
+object {
+	width: 75%;
+	height: 145vh;
+	margin-left: 12%;
+}
+
+#tabs-3 {
+	
+	
+}
+
+#tabs .ui-tabs-active {
+  background: #D5D8DC;
+}
+
 .line {
+	width: 80%;
 	margin: 15px auto;
-	border-color: #C2C7C7;
+	border-color: #fffafa;
 
 }
 
-/*
-.embed-custom {
-  width: 100%;
-  height: 142vh;
+/* ---------------- Responsive - Media ----------------*/
+
+@media screen and (max-width: 478px) {
+	body {
+		font-size: 13px;
+	}
 }
-*/
+
+@media screen and (max-width: 740px) {
+	nav {
+		width: 95%;
+		margin-bottom: 10px;
+		margin-left: 6px;
+
+	}
+
+	nav ul{
+		list-style: none;
+		margin: 0 auto;
+		padding-left: 0;
+	}
+
+	nav ul li {
+		text-align: center;
+		margin-left: 0 auto;
+		width: 100%;
+	}
+
+	nav ul li a, nav ul li a:hover, nav ul li.active a {
+		padding: 8px 0;
+		font-size: 16px;
+	}
+
+	.left-column {
+		width: 100%;
+		margin: 1% 1% 1% 1%;
+	}
+	.right-column {
+		width: 95%;
+		
+	}
+
+}
+
+
+
+
 
 
