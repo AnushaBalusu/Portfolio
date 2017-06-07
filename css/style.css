@@ -130,3 +130,21 @@ h1, h2 {
 	display: inline-block;
 	padding: 10px;
 }
+
+.skill {
+	width:150px;
+	height: auto;
+	padding: 10px;
+}
+
+.md-skill {
+	width:170px;
+}
+
+.small-skill {
+	width:100px;
+}
+
+.xs-skill {
+	width:90px;
+}
