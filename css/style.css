@@ -6,7 +6,7 @@ body {
 }
 
 .myjumbotron {
-	background-color: #72D6E2 !important;
+	background-color: #72D6E2 !important;	/* cyan bluish */
 	
 }
 .jumbotron-header {
@@ -14,7 +14,7 @@ body {
 
 }
 
-.intro {
+.portfolio-heading {
 	padding: 30px 20px 20px 20px;
 	/*font-family: 'Londrina Shadow', cursive;*/
 	font-family: 'VT323', cursive;
@@ -32,9 +32,9 @@ body {
 	padding-bottom: 20px;
 }
 
-#wrapper {
+#main-content {
 	margin: -35px auto 0 auto;
-	background: #F4F7F7;
+	background: #F4F7F7;		/* light greyish */
 	border-radius: 5px;
 }
 
@@ -68,7 +68,7 @@ h1, h2 {
 }
 
 .line {
-	margin: 15px auto;
+	vertical-align: center;
 	border-color: #C2C7C7;
 
 }
@@ -80,4 +80,53 @@ h1, h2 {
 }
 */
 
+.project {
+	width: 45%;
+	min-height: 170px;		/* to make all have same height when inline-block is used, % wont work*/ 
+	padding: 20px;
+	background-color: #DEE0E0;
+	border-radius: 10px;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
 
+.project-grid {
+	text-align: center;
+}
+
+.project-title {
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #29B1C1;
+	font-size: 18px;
+	text-align: center;
+	padding: 5px 0 8px 0;
+}
+
+.vline {
+	margin: 5px;
+	border-color: #C2C7C7;
+	
+	border:1px inset;  
+	height:100%;
+	width:1px;
+	  
+}
+
+.section-title {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'VT323', cursive;
+}
+
+.edu-content {
+	display: inline-block;
+	padding: 10px;
+}
+
+.edu-icon {
+	vertical-align: top;
+	display: inline-block;
+	padding: 10px;
+}
